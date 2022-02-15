@@ -36,9 +36,9 @@ Class variables:
 This class represents an edge in a directed weighted graph.
 This class is an implementation of the EdgeData interface.
 Class variables:
-- Node src (Source Vertex)
-- Node dest (Destination Vertex)
-- weight(Weight of edge)
+- src - the source vertex
+- dest - the destination vertex
+- weight - the Weight of edge
 
 #### GeoLocation
 This class represents a geographic location of a vertex in a directed weighted graph.
@@ -65,7 +65,7 @@ This class represents a Graph Theory algorithms.
 
 ### Json
 - EdgeJson - converts a json file to an edge and vice versa
-- NodeJson - converts a json file to a node and vice versa
+- VertexJson - converts a json file to a node and vice versa
 - GraphJson - converts a json file to a graph and vice versa
 
 ### Tests
